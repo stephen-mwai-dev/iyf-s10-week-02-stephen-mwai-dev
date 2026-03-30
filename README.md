@@ -1,8 +1,8 @@
 # iyf-s10-week-02-stephen-mwai-dev
 ### Week 2: CSS Mastery - Responsive Portfolio
 #### Author
-*   **Name:** Stephen Mwai
-*   **GitHub:** @stephen-mwai-dev
+*   **Name:** Stephen Mwai Njuguna
+*   **GitHub:** stephen-mwai-dev
 *   **Date:** March 30, 2026
 
 #### Project Description
