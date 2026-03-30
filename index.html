@@ -3,80 +3,149 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stephen Mwai Njuguna | Home</title>
+    <title>Stephen Mwai Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <div class="container">
-        <!-- Navigation -->
-        <nav class="main-nav">
-            <div class="logo">Stephen Mwai</div>
-            <ul class="nav-links">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
 
-        <!-- Hero Section -->
+<body>
+
+<div class="portfolio-container">
+
+    <!-- NAVIGATION -->
+    <nav class="tabs-nav">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <!-- HOME -->
+    <section id="home">
+
         <header class="profile-header">
-            <img src="images/profile.jpg" alt="Stephen Mwai Njuguna" class="profile-img">
+            <img src="images/profile.jpg" alt="Stephen Mwai" class="profile-img">
+
             <div class="profile-info">
-                <p class="role">Frontend Developer • Data Analyst • Problem Solver</p>
-                <h1>Stephen Mwai Njuguna</h1>
-                <p>As an educator, I have always believed in unlocking human potential. Now, I apply that same passion to technology. I am transitioning into Full‑Stack Development and Data Analytics, driven by the desire to build AI‑powered solutions that solve real‑world problems.</p>
+                <h1>Stephen Mwai</h1>
+                <p>Full-Stack Developer | Crafting Digital Excellence</p>
+                <p class="bio">Building high-impact solutions for education and tourism.</p>
             </div>
         </header>
 
-        <!-- Main Content -->
-        <div class="main-layout">
-            <aside class="sidebar">
-                <div class="card">
-                    <h3>Quick Overview</h3>
-                    <p>Educator turned developer, passionate about building impactful tech solutions.</p>
-                    <ul>
-                        <li>📍 Kenyatta Road, Kiambu County, Kenya</li>
-                        <li>💼 <strong>Open to Opportunities</strong></li>
-                        <li>🎓 Educator → Tech Innovator</li>
-                    </ul>
-                </div>
-            </aside>
-            <main class="content-area">
-                <div class="card">
-                    <h2>Welcome to My Portfolio</h2>
-                    <p>I'm Stephen, a frontend developer and data analyst with a background in education. I blend pedagogical thinking with technical execution to create user-friendly, data-driven web applications.</p>
-                    <p>Explore my <a href="projects.html">projects</a> or <a href="contact.html">get in touch</a>.</p>
-                    <a href="projects.html" class="button">View Projects</a>
-                </div>
-            </main>
-        </div>
-
-        <!-- Footer -->
-        <footer class="footer-columns">
-            <div class="footer-col">
-                <h4>Stephen Mwai</h4>
-                <p>Educator & Developer</p>
-            </div>
-            <div class="footer-col">
-                <h4>Quick Links</h4>
+        <main class="main-layout">
+            <aside class="sidebar card">
+                <h3>Details</h3>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li>Location: Nairobi, Kenya</li>
+                    <li>Status: Season 10 Student</li>
                 </ul>
-            </div>
-            <div class="footer-col">
-                <h4>Contact</h4>
-                <p>📍 Kiambu, Kenya</p>
-                <p>📧 <a href="mailto:stephenmwai71@gmail.com">stephenmwai71@gmail.com</a></p>
-                <p>📞 <a href="tel:+254702237633">+254 702 237633</a></p>
-            </div>
-        </footer>
-        <div class="copyright">
-            <p>© 2026 Stephen Mwai Njuguna. All rights reserved.</p>
+            </aside>
+
+            <section class="card">
+                <h2>Welcome</h2>
+                <p>
+                    I am passionate about creating accessible web applications that solve real-world problems.
+                    Explore my portfolio to see my work with Olivine School and Wonderscape Kenya.
+                </p>
+            </section>
+        </main>
+
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="card">
+        <h2>My Story</h2>
+        <p>
+            I started web development to drive <mark>digital transformation</mark>.
+            My focus is on semantic HTML and responsive design.
+        </p>
+
+        <h3>Technical Skills</h3>
+        <ul>
+            <li>HTML5 & Semantic Structure</li>
+            <li>CSS3 Mastery (Flexbox/Grid)</li>
+            <li>Git/GitHub Workflow</li>
+        </ul>
+
+        <details>
+            <summary>Education Timeline</summary>
+            <p>I am currently undergoing Practical Web Development Training - Season 10.</p>
+        </details>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <h2 style="margin-bottom:20px;">Projects</h2>
+
+        <div class="projects-grid">
+
+            <article class="project-card">
+                <img src="images/olivine.jpg" alt="Olivine School">
+                <div class="card inner-card">
+                    <h3>Olivine School</h3>
+                    <p>An educational platform for institutional management.</p>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <img src="images/wonderscape.jpg" alt="Wonderscape Kenya">
+                <div class="card inner-card">
+                    <h3>Wonderscape Kenya</h3>
+                    <p>A professional travel portal showcasing Kenyan tourism.</p>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <img src="https://placehold.co/400" alt="Portfolio">
+                <div class="card inner-card">
+                    <h3>Personal Portfolio</h3>
+                    <p>This responsive site developed for Week 2.</p>
+                </div>
+            </article>
+
         </div>
-    </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <main class="main-layout">
+
+            <aside class="sidebar card">
+                <h3>Contact Info</h3>
+                <address>
+                    Email: <a href="mailto:stephen@example.com">Email Me</a><br>
+                    LinkedIn: <a href="#">Profile</a>
+                </address>
+            </aside>
+
+            <section class="card">
+                <h2>Contact Me</h2>
+
+                <form class="contact-form">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email Address" required>
+
+                    <select>
+                        <option value="inquiry">General Inquiry</option>
+                        <option value="project">Project Proposal</option>
+                        <option value="other">Other</option>
+                    </select>
+
+                    <textarea placeholder="Message (min 50 chars)" minlength="50" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
+
+        </main>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 Stephen Mwai. Built with Semantic HTML & Responsive CSS.</p>
+    </footer>
+
+</div>
+
 </body>
 </html>
