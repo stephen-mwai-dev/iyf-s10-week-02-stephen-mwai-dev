@@ -1,29 +1,38 @@
-# iyf-s10-week-02-stephen-mwai-dev
-### Week 2: CSS Mastery - Responsive Portfolio
-#### Author
-*   **Name:** Stephen Mwai Njuguna
-*   **GitHub:** stephen-mwai-dev
-*   **Date:** March 30, 2026
+About
 
-#### Project Description
-A fully responsive, professionally styled portfolio built using semantic HTML5 and advanced CSS3. It features a custom typography system, color variables, and a mobile-first grid layout.
+A professional, high-performance portfolio website built with semantic HTML, modern CSS, and Vanilla JavaScript. This project showcases my journey as a developer, integrating web development expertise with data analytics and AI insights.
 
-#### Technologies Used
-*  HTML5 (Semantic Tags)
-*  CSS3 (Flexbox, Grid, Custom Properties)
+## 🚀 Live Demo
+[Insert Your Deployment Link Here - e.g., Render or GitHub Pages]
 
-#### Features
-*  **Typography & Color System:** Managed entirely through CSS variables for global consistency.
-*  **Pure CSS Tab Navigation:** Section switching without JavaScript using radio buttons and labels.
-*  **Responsive Design:** Mobile-first approach with breakpoints for tablet and desktop views.
-*  **Interactive UI:** Smooth transitions, hover effects on project cards, and focused accessibility states.
+## ✨ Professional Features
+* **Dynamic Mobile Navigation:** Implemented a custom "hamburger" menu with JavaScript for seamless browsing on smaller screens.
+* **Dual-Theme Engine:** Dark and Light mode support with persistent state using `localStorage`.
+* **Performance Optimized:** Integrated `loading="lazy"` for project images to ensure rapid page load speeds.
+* **Accessible Design:** Includes `:focus-visible` styling and semantic ARIA labels for keyboard and screen-reader users.
+* **Smooth Motion UX:** Uses `IntersectionObserver` for scroll-triggered reveal animations without performance lag.
 
-#### How to Run
-1. Clone this repository.
-2. Open `index.html` in your browser.
+## 🛠️ Technical Stack
 
-#### Lessons Learned
-I learned how to manage 2D layouts with CSS Grid and 1D alignments with Flexbox. I also mastered the CSS Box Model to ensure precise spacing.
+### **Frontend**
+* **Structure:** Semantic HTML5 for SEO and accessibility.
+* **Styling:** Modern CSS3 featuring Flexbox, Grid, and Custom Variables (CSS Variables).
+* **Logic:** Vanilla JavaScript for theme toggling, mobile navigation, and scroll effects.
 
-#### Live Demo
-[View Live Site (https://stephen-mwai-dev.github.io/iyf-s10-week-02-stephen-mwai-dev)
+### **Backend (Skills Integrated)**
+* **Server-Side:** Node.js & Express.js.
+* **Security:** JWT Authentication & CORS management.
+* **Data:** MongoDB (NoSQL) and SQL.
+* **DevOps:** Environment variable management (`.env`) and deployment via Render.
+
+## 📂 Project Structure
+To maintain a professional workflow, the code is strictly modularized:
+* `index.html` - Site structure and content.
+* `styles.css` - All styling and responsive media queries (strictly separated from HTML).
+* `script.js` - Logic for interactivity and UI enhancements.
+
+## 💻 Local Setup
+
+1. **Clone the project:**
+   ```bash
+   git clone [https://github.com/stephen-mwai-dev/portfolio-project.git](https://github.com/stephen-mwai-dev/portfolio-project.git)
